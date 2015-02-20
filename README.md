@@ -39,7 +39,7 @@ Use in the following format :
                                        atPosition:ToastPosition_Centre];
       } arrayOfBlocksForButtons:@[confirmCompletionBlock]]; // Array of Blocks for Corresponding Actions
 
-  For Every 'N' Buttons in the ###otherbuttonTitles array, provide the same number of handler blocks in arrayOfBlocksForButtons
+  For Every 'N' Buttons in the otherbuttonTitles array, provide the same number of handler blocks in arrayOfBlocksForButtons
 
 
 Published under the [Apache License 2.0](http://www.apache.org/licenses/LICENSE-2.0.txt)
