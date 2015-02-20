@@ -13,21 +13,13 @@
 		C2AE3D531A975426002C3EA7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C2AE3D511A975426002C3EA7 /* Main.storyboard */; };
 		C2AE3D551A975426002C3EA7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C2AE3D541A975426002C3EA7 /* Images.xcassets */; };
 		C2AE3D581A975426002C3EA7 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = C2AE3D561A975426002C3EA7 /* LaunchScreen.xib */; };
-		C2AE3D641A975427002C3EA7 /* MKAlertViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C2AE3D631A975427002C3EA7 /* MKAlertViewTests.m */; };
+		C2AE3D7B1A9769C7002C3EA7 /* MKAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = C2AE3D781A9769C7002C3EA7 /* MKAlertView.m */; };
+		C2AE3D7C1A9769C7002C3EA7 /* UIView+Toast.m in Sources */ = {isa = PBXBuildFile; fileRef = C2AE3D7A1A9769C7002C3EA7 /* UIView+Toast.m */; };
+		C2EB24C71A977734002A5868 /* coolDoggie.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C2EB24C61A977734002A5868 /* coolDoggie.jpg */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		C2AE3D5E1A975427002C3EA7 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = C2AE3D3C1A975426002C3EA7 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = C2AE3D431A975426002C3EA7;
-			remoteInfo = MKAlertView;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
-		C2AE3D441A975426002C3EA7 /* MKAlertView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MKAlertView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C2AE3D441A975426002C3EA7 /* MKAlertViewExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MKAlertViewExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C2AE3D481A975426002C3EA7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C2AE3D491A975426002C3EA7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		C2AE3D4B1A975426002C3EA7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -37,20 +29,15 @@
 		C2AE3D521A975426002C3EA7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C2AE3D541A975426002C3EA7 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		C2AE3D571A975426002C3EA7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		C2AE3D5D1A975427002C3EA7 /* MKAlertViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MKAlertViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		C2AE3D621A975427002C3EA7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C2AE3D631A975427002C3EA7 /* MKAlertViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MKAlertViewTests.m; sourceTree = "<group>"; };
+		C2AE3D771A9769C7002C3EA7 /* MKAlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MKAlertView.h; path = MKAlertView/MKAlertView.h; sourceTree = "<group>"; };
+		C2AE3D781A9769C7002C3EA7 /* MKAlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MKAlertView.m; path = MKAlertView/MKAlertView.m; sourceTree = "<group>"; };
+		C2AE3D791A9769C7002C3EA7 /* UIView+Toast.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIView+Toast.h"; path = "MKAlertView/UIView+Toast.h"; sourceTree = "<group>"; };
+		C2AE3D7A1A9769C7002C3EA7 /* UIView+Toast.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIView+Toast.m"; path = "MKAlertView/UIView+Toast.m"; sourceTree = "<group>"; };
+		C2EB24C61A977734002A5868 /* coolDoggie.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = coolDoggie.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		C2AE3D411A975426002C3EA7 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		C2AE3D5A1A975427002C3EA7 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -64,7 +51,6 @@
 			isa = PBXGroup;
 			children = (
 				C2AE3D461A975426002C3EA7 /* MKAlertView */,
-				C2AE3D601A975427002C3EA7 /* MKAlertViewTests */,
 				C2AE3D451A975426002C3EA7 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -72,8 +58,7 @@
 		C2AE3D451A975426002C3EA7 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				C2AE3D441A975426002C3EA7 /* MKAlertView.app */,
-				C2AE3D5D1A975427002C3EA7 /* MKAlertViewTests.xctest */,
+				C2AE3D441A975426002C3EA7 /* MKAlertViewExample.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -81,6 +66,8 @@
 		C2AE3D461A975426002C3EA7 /* MKAlertView */ = {
 			isa = PBXGroup;
 			children = (
+				C2EB24C61A977734002A5868 /* coolDoggie.jpg */,
+				C2AE3D761A97690B002C3EA7 /* MKAlertView */,
 				C2AE3D4B1A975426002C3EA7 /* AppDelegate.h */,
 				C2AE3D4C1A975426002C3EA7 /* AppDelegate.m */,
 				C2AE3D4E1A975426002C3EA7 /* ViewController.h */,
@@ -102,29 +89,23 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		C2AE3D601A975427002C3EA7 /* MKAlertViewTests */ = {
+		C2AE3D761A97690B002C3EA7 /* MKAlertView */ = {
 			isa = PBXGroup;
 			children = (
-				C2AE3D631A975427002C3EA7 /* MKAlertViewTests.m */,
-				C2AE3D611A975427002C3EA7 /* Supporting Files */,
+				C2AE3D771A9769C7002C3EA7 /* MKAlertView.h */,
+				C2AE3D781A9769C7002C3EA7 /* MKAlertView.m */,
+				C2AE3D791A9769C7002C3EA7 /* UIView+Toast.h */,
+				C2AE3D7A1A9769C7002C3EA7 /* UIView+Toast.m */,
 			);
-			path = MKAlertViewTests;
-			sourceTree = "<group>";
-		};
-		C2AE3D611A975427002C3EA7 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				C2AE3D621A975427002C3EA7 /* Info.plist */,
-			);
-			name = "Supporting Files";
+			name = MKAlertView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		C2AE3D431A975426002C3EA7 /* MKAlertView */ = {
+		C2AE3D431A975426002C3EA7 /* MKAlertViewExample */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C2AE3D671A975427002C3EA7 /* Build configuration list for PBXNativeTarget "MKAlertView" */;
+			buildConfigurationList = C2AE3D671A975427002C3EA7 /* Build configuration list for PBXNativeTarget "MKAlertViewExample" */;
 			buildPhases = (
 				C2AE3D401A975426002C3EA7 /* Sources */,
 				C2AE3D411A975426002C3EA7 /* Frameworks */,
@@ -134,28 +115,10 @@
 			);
 			dependencies = (
 			);
-			name = MKAlertView;
+			name = MKAlertViewExample;
 			productName = MKAlertView;
-			productReference = C2AE3D441A975426002C3EA7 /* MKAlertView.app */;
+			productReference = C2AE3D441A975426002C3EA7 /* MKAlertViewExample.app */;
 			productType = "com.apple.product-type.application";
-		};
-		C2AE3D5C1A975427002C3EA7 /* MKAlertViewTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = C2AE3D6A1A975427002C3EA7 /* Build configuration list for PBXNativeTarget "MKAlertViewTests" */;
-			buildPhases = (
-				C2AE3D591A975427002C3EA7 /* Sources */,
-				C2AE3D5A1A975427002C3EA7 /* Frameworks */,
-				C2AE3D5B1A975427002C3EA7 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				C2AE3D5F1A975427002C3EA7 /* PBXTargetDependency */,
-			);
-			name = MKAlertViewTests;
-			productName = MKAlertViewTests;
-			productReference = C2AE3D5D1A975427002C3EA7 /* MKAlertViewTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
@@ -169,13 +132,9 @@
 					C2AE3D431A975426002C3EA7 = {
 						CreatedOnToolsVersion = 6.1.1;
 					};
-					C2AE3D5C1A975427002C3EA7 = {
-						CreatedOnToolsVersion = 6.1.1;
-						TestTargetID = C2AE3D431A975426002C3EA7;
-					};
 				};
 			};
-			buildConfigurationList = C2AE3D3F1A975426002C3EA7 /* Build configuration list for PBXProject "MKAlertView" */;
+			buildConfigurationList = C2AE3D3F1A975426002C3EA7 /* Build configuration list for PBXProject "MKAlertViewExample" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -188,8 +147,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				C2AE3D431A975426002C3EA7 /* MKAlertView */,
-				C2AE3D5C1A975427002C3EA7 /* MKAlertViewTests */,
+				C2AE3D431A975426002C3EA7 /* MKAlertViewExample */,
 			);
 		};
 /* End PBXProject section */
@@ -200,15 +158,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				C2AE3D531A975426002C3EA7 /* Main.storyboard in Resources */,
+				C2EB24C71A977734002A5868 /* coolDoggie.jpg in Resources */,
 				C2AE3D581A975426002C3EA7 /* LaunchScreen.xib in Resources */,
 				C2AE3D551A975426002C3EA7 /* Images.xcassets in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		C2AE3D5B1A975427002C3EA7 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -222,26 +174,12 @@
 				C2AE3D501A975426002C3EA7 /* ViewController.m in Sources */,
 				C2AE3D4D1A975426002C3EA7 /* AppDelegate.m in Sources */,
 				C2AE3D4A1A975426002C3EA7 /* main.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		C2AE3D591A975427002C3EA7 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				C2AE3D641A975427002C3EA7 /* MKAlertViewTests.m in Sources */,
+				C2AE3D7C1A9769C7002C3EA7 /* UIView+Toast.m in Sources */,
+				C2AE3D7B1A9769C7002C3EA7 /* MKAlertView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		C2AE3D5F1A975427002C3EA7 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = C2AE3D431A975426002C3EA7 /* MKAlertView */;
-			targetProxy = C2AE3D5E1A975427002C3EA7 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		C2AE3D511A975426002C3EA7 /* Main.storyboard */ = {
@@ -347,7 +285,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = MKAlertView/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = MKAlertViewExample;
 			};
 			name = Debug;
 		};
@@ -357,48 +295,14 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = MKAlertView/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-			};
-			name = Release;
-		};
-		C2AE3D6B1A975427002C3EA7 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = MKAlertViewTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MKAlertView.app/MKAlertView";
-			};
-			name = Debug;
-		};
-		C2AE3D6C1A975427002C3EA7 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = MKAlertViewTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MKAlertView.app/MKAlertView";
+				PRODUCT_NAME = MKAlertViewExample;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		C2AE3D3F1A975426002C3EA7 /* Build configuration list for PBXProject "MKAlertView" */ = {
+		C2AE3D3F1A975426002C3EA7 /* Build configuration list for PBXProject "MKAlertViewExample" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C2AE3D651A975427002C3EA7 /* Debug */,
@@ -407,21 +311,14 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C2AE3D671A975427002C3EA7 /* Build configuration list for PBXNativeTarget "MKAlertView" */ = {
+		C2AE3D671A975427002C3EA7 /* Build configuration list for PBXNativeTarget "MKAlertViewExample" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C2AE3D681A975427002C3EA7 /* Debug */,
 				C2AE3D691A975427002C3EA7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-		};
-		C2AE3D6A1A975427002C3EA7 /* Build configuration list for PBXNativeTarget "MKAlertViewTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				C2AE3D6B1A975427002C3EA7 /* Debug */,
-				C2AE3D6C1A975427002C3EA7 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

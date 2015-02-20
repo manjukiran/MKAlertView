@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6211" systemVersion="14A298i" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6254" systemVersion="14C68m" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6204"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6247"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
@@ -15,7 +15,157 @@
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RxG-Sr-2ri">
+                                <rect key="frame" x="85" y="43" width="430" height="30"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <state key="normal" title="Simple Alert View 1 Button">
+                                    <color key="titleColor" red="0.0" green="0.50196081399917603" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="simpleAlertView" destination="BYZ-38-t0r" eventType="touchUpInside" id="y2f-oq-heR"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lYO-Ir-TDs">
+                                <rect key="frame" x="85" y="98" width="430" height="30"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <state key="normal" title="Simple AlertView 2 Buttons">
+                                    <color key="titleColor" red="0.0" green="0.50196081399917603" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="simpleAlertView2Buttons" destination="BYZ-38-t0r" eventType="touchUpInside" id="bFY-iL-WR4"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UZ4-AW-UWA">
+                                <rect key="frame" x="85" y="153" width="430" height="30"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <state key="normal" title="Simple Alert View with Text Field">
+                                    <color key="titleColor" red="0.0" green="0.50196081399917603" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="simpleAlertViewWithTextField" destination="BYZ-38-t0r" eventType="touchUpInside" id="cat-Jy-zBC"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vgK-E3-r2A">
+                                <rect key="frame" x="85" y="209" width="430" height="30"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <state key="normal" title="Simple Alert View with UserName and Password Fields">
+                                    <color key="titleColor" red="0.0" green="0.50196081399917603" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="simpleAlertViewWithUserNameAndPassword" destination="BYZ-38-t0r" eventType="touchUpInside" id="NLG-s2-eTi"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wYR-SM-IoK">
+                                <rect key="frame" x="85" y="264" width="430" height="30"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <state key="normal" title="Alertview with more than 2 Buttons">
+                                    <color key="titleColor" red="0.0" green="0.50196081399917603" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="alertViewWithMoreThan2Buttons" destination="BYZ-38-t0r" eventType="touchUpInside" id="maU-z9-68Y"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LVG-6O-faL">
+                                <rect key="frame" x="85" y="317" width="430" height="30"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <state key="normal" title="Alert View With Text Field and &gt; 2 Buttons">
+                                    <color key="titleColor" red="0.0" green="0.50196081399917603" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="alertViewWithMoreThan2ButtonsWithTextField" destination="BYZ-38-t0r" eventType="touchUpInside" id="pxr-7J-WVh"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xah-rR-eXf">
+                                <rect key="frame" x="85" y="368" width="430" height="30"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <state key="normal" title="Alert View With User Login form and &gt; 2 Buttons">
+                                    <color key="titleColor" red="0.0" green="0.50196081399917603" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="alertViewWithMoreThan2ButtonsWithUserNameAndPassword" destination="BYZ-38-t0r" eventType="touchUpInside" id="qmA-ob-YpW"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FbX-wO-rPq">
+                                <rect key="frame" x="85" y="428" width="430" height="30"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <state key="normal" title="Simple Android Style Alerts">
+                                    <color key="titleColor" red="0.0" green="0.50196081399917603" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="simpleAndroidAlert" destination="BYZ-38-t0r" eventType="touchUpInside" id="kNd-Dg-cEr"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LFm-N6-6WD">
+                                <rect key="frame" x="85" y="482" width="430" height="30"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <state key="normal" title="Complex Android Style Alerts with Image">
+                                    <color key="titleColor" red="0.0" green="0.50196081399917603" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="complexAndroidAlert" destination="BYZ-38-t0r" eventType="touchUpInside" id="lav-g2-lEu"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yWT-9U-Fyc">
+                                <rect key="frame" x="85" y="539" width="430" height="30"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <state key="normal" title="Visit On GitHub">
+                                    <color key="titleColor" red="0.0" green="0.50196081399917603" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="visitGithub" destination="BYZ-38-t0r" eventType="touchUpInside" id="WKf-YQ-Iqs"/>
+                                </connections>
+                            </button>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="yWT-9U-Fyc" secondAttribute="bottom" constant="31" id="5cE-dp-ehi"/>
+                            <constraint firstAttribute="centerX" secondItem="xah-rR-eXf" secondAttribute="centerX" id="8ZN-j3-13N"/>
+                            <constraint firstItem="RxG-Sr-2ri" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="23" id="F4B-k8-BCD"/>
+                            <constraint firstItem="UZ4-AW-UWA" firstAttribute="top" secondItem="lYO-Ir-TDs" secondAttribute="bottom" constant="25" id="Ok9-sw-cHj"/>
+                            <constraint firstAttribute="centerX" secondItem="wYR-SM-IoK" secondAttribute="centerX" id="RYk-e1-bnk"/>
+                            <constraint firstAttribute="centerX" secondItem="LFm-N6-6WD" secondAttribute="centerX" id="Vud-0S-LZB"/>
+                            <constraint firstAttribute="centerX" secondItem="LVG-6O-faL" secondAttribute="centerX" id="YQx-Dr-Gdq"/>
+                            <constraint firstItem="LVG-6O-faL" firstAttribute="top" secondItem="wYR-SM-IoK" secondAttribute="bottom" constant="23" id="bHT-KI-ReM"/>
+                            <constraint firstAttribute="centerX" secondItem="vgK-E3-r2A" secondAttribute="centerX" id="c1v-Xx-uEz"/>
+                            <constraint firstAttribute="centerX" secondItem="RxG-Sr-2ri" secondAttribute="centerX" id="heE-Zm-de1"/>
+                            <constraint firstAttribute="centerX" secondItem="FbX-wO-rPq" secondAttribute="centerX" id="i7H-iu-2x6"/>
+                            <constraint firstItem="FbX-wO-rPq" firstAttribute="top" secondItem="xah-rR-eXf" secondAttribute="bottom" constant="30" id="kAU-jM-Nnz"/>
+                            <constraint firstItem="vgK-E3-r2A" firstAttribute="top" secondItem="UZ4-AW-UWA" secondAttribute="bottom" constant="26" id="mAp-Fh-nDz"/>
+                            <constraint firstItem="yWT-9U-Fyc" firstAttribute="top" secondItem="FbX-wO-rPq" secondAttribute="bottom" constant="81" id="nrJ-m2-8Lc"/>
+                            <constraint firstItem="xah-rR-eXf" firstAttribute="top" secondItem="LVG-6O-faL" secondAttribute="bottom" constant="21" id="nt4-Yc-eWD"/>
+                            <constraint firstAttribute="centerX" secondItem="UZ4-AW-UWA" secondAttribute="centerX" id="ofb-Q7-iu0"/>
+                            <constraint firstAttribute="centerX" secondItem="lYO-Ir-TDs" secondAttribute="centerX" id="rYY-8f-XZM"/>
+                            <constraint firstItem="lYO-Ir-TDs" firstAttribute="top" secondItem="RxG-Sr-2ri" secondAttribute="bottom" constant="25" id="ryF-hD-bcv"/>
+                            <constraint firstAttribute="centerX" secondItem="yWT-9U-Fyc" secondAttribute="centerX" id="w3L-lk-Avo"/>
+                            <constraint firstItem="wYR-SM-IoK" firstAttribute="top" secondItem="vgK-E3-r2A" secondAttribute="bottom" constant="25" id="wpS-ka-5ZC"/>
+                            <constraint firstItem="LFm-N6-6WD" firstAttribute="top" secondItem="FbX-wO-rPq" secondAttribute="bottom" constant="24" id="xsu-52-1tL"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="ryF-hD-bcv"/>
+                            </mask>
+                        </variation>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
